@@ -1,0 +1,16 @@
+header nav {
+background-color: black;
+
+}
+
+a {
+    color: grey;
+}
+
+a:hover {
+    color: white;
+}
+
+a.active {
+    color: white;
+}

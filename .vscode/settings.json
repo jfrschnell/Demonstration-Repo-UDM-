@@ -1,0 +1,9 @@
+{
+    "workbench.iconTheme": "eq-material-theme-icons-palenight",
+    "workbench.colorTheme": "Solarized Dark",
+    "editor.fontSize": 14,
+    "liveServer.settings.https": {
+    
+    },
+    "liveServer.settings.fullReload": true
+}

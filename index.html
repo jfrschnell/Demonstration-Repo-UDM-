@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!-- This special tag is used to inform the browser that the document type is HTML. -->
+<html lang="en"> <!--In HTML5, you’re expected to tell the browser which language the page will be written in. Because I write in English, I’m specifying with the code “en.”-->
+
+    <head>
+        <!--head element - contains meta information about the HTML page-->
+        <meta charset="UTF-8"> <!-- This command gives a little information to the browser, telling it which character set to use. English normally uses a character set called UTF-8. -->
+
+        <!--what is this exactly???-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--title element - specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)-->
+        <title>Coding Practice</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <!--in order to see different "decorations" you want in a page you need to link different pages... see example below-->
+        <link rel="stylesheet" href="style.css">         
+    </head>
+
+    <body>
+
+        <header>
+            <nav>
+                <div class="nav-wrapper"> 
+                  <a href="index.html" class="brand-logo center">Logotipo</a>
+                  <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="contact2.html">Contact2</a></li>
+                  </ul>
+                </div>
+            </nav>
+        </header>
+        
+        <main>
+            <h1>My First Webpage</h1>
+            <h2>This is my h2</h2>
+            <h3>Here's an h3</h3>
+            <h4>Hello</h4>
+            <!--If you want to target a particular element to have it own style you need to make it specific otherwise you will be targetting all elements that have the same name. To make it just specific to that one you will need to give it a class name and then target that classe name. see the example below-->
+            <h5 class="title">Hello World</h5>
+            <h5>How are you?</h5>
+            <h6>This is it.</h6>
+    
+            <div class="container">
+                <h2>What are divs?</h2>
+                <h5>Divs are used as containers for other html elements and help us divide our page into sections.</h5>
+            </div>
+    
+            <div class="flex">
+                <p>Let's learn about flexbox. Flexbox needs a parent container in order to work. The elements inside of that container can be adjusted and centered and moved around easily.</p>
+    
+                <div class="box" id="box1">Box 1</div>
+                <div class="box" id="box2">Box 2</div>
+                <div class="box" id="box3">Box 3</div>
+                <div class="box" id="box4">Box 4</div>
+                <div class="box" id="box5">Box 5</div>
+                <div class="box" id="box6">Box 6</div>
+            </div>
+    
+            <section>
+                <h2>How to use section tag</h2>
+                <p>This is a paragraph with normal sized text</p>
+                <!--another way to target an element is by giving it an ID. id="name of the id". The id makes that element very specific.-->
+                <i id="italic">This is Italic</i><br>
+                <em>This is emphasized text</em><br> 
+                <strong>This element uses a bolder or stronger text</strong><br>
+                <b>This is bold text</b><br>
+            </section>
+    
+            <a href="https://www.tsf.pt">The latest news here</a><br>
+
+            <a href="about.html">About</a><br>
+            
+
+            <!--image tags are self closing. Don't need close tag-->
+            <img src="2020-Ford-Mustang-Shelby-G500-1.jpg" alt="2020-Ford-Mustang-Shelby-G500-9" height="300" class="circle-img">
+
+            <!--bellow: how to include a URL into an image-->
+            <a href="https://otomoto.pl"><img src="Red-Bull-f1.jpg" alt="Red-Bull-f1" height="300"></a>
+        </main>
+
+
+        <footer>
+            &copy; JFSCC
+        </footer>
+
+    </body>
+</html>
