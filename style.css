@@ -1,9 +1,15 @@
-h1 {text-align: center;
+html {
+    background: rgb(233, 232, 232);
+  }
+
+h1 {
+    text-align: center;
     color: grey;
     text-shadow: 4px 4px 5px lightblue;
 }
 
 /* .title (.dot and the name of the class - this is how to target an element - by giving it a class - type it as it is in the index file. Then you give it a property and a value. see the example here below */
+
 .title { 
     color: blueviolet;
 }
@@ -14,8 +20,8 @@ h1 {text-align: center;
 }
 
 nav {
-background-color: rgba(255, 247, 173, 0.952);
-text-align: center;
+    background-color: rgba(255, 247, 173, 0.952);
+    text-align: center;
 }
 
 /* ponto "." significa class */
@@ -23,23 +29,23 @@ text-align: center;
     background-color: darkcyan;
 }
 
-a
-{text-decoration-line: none;
+a {
+    text-decoration-line: none;
 }
 
 nav ul { 
-list-style: none;
+    list-style: none;
 }
 
 nav li {
-display: inline-block;
-padding: 45px;
+    display: inline-block;
+    padding: 45px;
 }
 
 .container {
-border: 10px dashed lightgreen;    
-margin: 50px 5px 25 px 0px;
-padding: 30px 0px 10px 35px;
+    border: 10px dashed lightgreen;    
+    margin: 50px 5px 25 px 0px;
+    padding: 30px 0px 10px 35px;
 }
 
 .box { 
@@ -71,12 +77,12 @@ padding: 30px 0px 10px 35px;
 }
 
 #box2 {
-animation-name: rotation;
-animation-duration: 5s;
-animation-iteration-count: 8s;
-animation-timing-function: ease-in-out;
-border-radius: 10%;
-background-image: radial-gradient(circle, red, orange, yellow, lightgreen, purple);
+    animation-name: rotation;
+    animation-duration: 5s;
+    animation-iteration-count: 8s;
+    animation-timing-function: ease-in-out;
+    border-radius: 10%;
+    background-image: radial-gradient(circle, red, orange, yellow, lightgreen, purple);
 }
 
 @keyframes getBigger {
@@ -136,12 +142,12 @@ img {
 }
 
 .flex {
-margin: 40px;
-border: 3px solid blue;
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-padding: 100px;
+    margin: 30px;
+    border: 3px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 100px;
 }
 
 .contact-box {
@@ -170,7 +176,7 @@ form textarea {
 form button {
     display: block;
     margin: 30px;
-} */
+}*/
     
 form input, textarea, button {
     display: block;
@@ -180,7 +186,7 @@ form input, textarea, button {
 .wrapper {
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: repeat(5, [col] 20% ) ;
+    grid-template-columns: repeat(5, [col] 19% ) ;
     grid-template-rows: repeat(3, [row] auto  );
     background-color: #fff;
     color: #444;
@@ -236,5 +242,5 @@ form input, textarea, button {
     z-index: 20;
     display: flex;
     justify-content: center;
-    background-image: linear-gradient(grey, white, cyan, rgba(53, 53, 156, 0.616);
+    background-image: linear-gradient(grey, white, cyan, rgba(53, 53, 156, 0.616));
 }
