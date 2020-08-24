@@ -186,10 +186,11 @@ form input, textarea, button {
 .wrapper {
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: repeat(5, [col] 19% ) ;
+    grid-template-columns: repeat(5, [col] 20% ) ;
     grid-template-rows: repeat(3, [row] auto  );
     background-color: #fff;
     color: #444;
+    margin: 10px;
 }
 
 .Box {
@@ -199,7 +200,6 @@ form input, textarea, button {
     padding: 20px;
     font-size: 150%;
     z-index:10;
-
 }
 
 .a {
