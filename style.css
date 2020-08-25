@@ -177,11 +177,28 @@ form button {
     display: block;
     margin: 30px;
 }*/
-    
-form input, textarea, button {
-    display: block;
-    margin: 30px;
+
+form {
+    width: 50%;
+    margin-right: 25%;
+    margin-left: 25%;
 }
+
+form input {
+    display: block;
+    margin: 0px;
+}
+
+form textarea {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+form button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 
 .wrapper {
     display: grid;
