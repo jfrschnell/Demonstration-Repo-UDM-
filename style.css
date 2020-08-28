@@ -179,26 +179,35 @@ form button {
 }*/
 
 form {
-    width: 50%;
-    margin-right: 25%;
-    margin-left: 25%;
+    width: 50% !important; 
+    margin: 0% 25% 0% 25% !important;
 }
 
+/*for one line data types (text numbers) */
 form input {
     display: block;
     margin: 0px;
 }
 
+/*for multi line text */
 form textarea {
     margin-top: 10px;
     margin-bottom: 10px;
+    min-height: 10px;
 }
 
-form button {
-    margin-top: 10px;
-    margin-bottom: 10px;
+form textarea:focus {
+    border: 2px solid darkcyan !important;
+    box-shadow: none !important;
 }
 
+
+#submeter {
+    margin-top: 0px;
+    background-color: darkcyan;
+    color: white;
+    padding: 10px;   
+}
 
 .wrapper {
     display: grid;
